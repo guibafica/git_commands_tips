@@ -39,3 +39,9 @@ Envia o código adicionado e commitado para o git hub.
 ## => `git checkout -b nome-da-nova-ramificacao`
 Muda a ramificação (caso ela exista) ou cria uma nova.
 
+## => `merge nome-da-ramificacao`
+Traz o conteúdo e commits da branch indicada no comando, para a branch atual.
+
+## => `push origin nome-da-ramificacao-atual`
+Envia todo o branch adicionado para o git hub, com isso, la no site, podemos criar um Pull Request. Isso cria uma solicitação para comparar e unir essa branch a master.
+
